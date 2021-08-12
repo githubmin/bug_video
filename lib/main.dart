@@ -58,7 +58,11 @@ class _MyHomePageState extends State<MyHomePage> {
                     },
                     child: Text('Go to HTML player')),
               Text('W'),
-              MyVideoPlayer(key: Key('video $_playIndex'), url: 'https://1251316161.vod2.myqcloud.com/007a649dvodcq1251316161/45d870155285890812491498931/24c2SGTVjrcA.mp4'),
+
+              /// https://1251316161.vod2.myqcloud.com/007a649dvodcq1251316161/45d870155285890812491498931/24c2SGTVjrcA.mp4
+              /// https://vod4.buycar5.cn/20210512/mYvB1MkB/index.m3u8
+              /// https://bitdash-a.akamaihd.net/content/MI201109210084_1/m3u8s/f08e80da-bf1d-4e3d-8899-f0f6155f6efa.m3u8
+              MyVideoPlayer(key: Key('video $_playIndex'), url: 'https://vod4.buycar5.cn/20210512/mYvB1MkB/index.m3u8'),
               Text('Video is CC-BY-NC-SA 2.5 from Svenskt Teckenspråkslexikon'),
             ],
           ),
